@@ -1,0 +1,16 @@
+create table tbl_tran_list
+(
+	id INT(10) not null auto_increment
+		primary key,
+	tran_name VARCHAR(255) default '' not null,
+	starting_station VARCHAR(255) null,
+	ending_station VARCHAR(255) null,
+	train_no VARCHAR(255) default '' not null,
+	category VARCHAR(255) null,
+	trigger_time VARCHAR(255) null
+)
+;
+
+create unique index tbl_tran_list_tran_no_uindex
+	on tbl_tran_list (train_no)
+;

@@ -1,0 +1,55 @@
+[
+  {
+    "station_name": "郑州",
+    "train_class_name": "高速",
+    "start_time": "07:34",
+    "start_station_name": "郑州",
+    "service_type": "2",
+    "station_train_code": "G370",
+    "end_station_name": "上海虹桥",
+    "isEnabled": false,
+    "stopover_time": "----",
+    "station_no": "01",
+    "arrive_time": "----"
+  },
+  {
+    "station_name": "郑州东",
+    "start_time": "07:52",
+    "isEnabled": false,
+    "stopover_time": "3分钟",
+    "station_no": "02",
+    "arrive_time": "07:49"
+  },
+  {
+    "station_name": "商丘",
+    "start_time": "08:44",
+    "isEnabled": false,
+    "stopover_time": "2分钟",
+    "station_no": "03",
+    "arrive_time": "08:42"
+  },
+  {
+    "station_name": "徐州东",
+    "start_time": "09:36",
+    "isEnabled": false,
+    "stopover_time": "4分钟",
+    "station_no": "04",
+    "arrive_time": "09:32"
+  },
+  {
+    "station_name": "南京南",
+    "start_time": "10:52",
+    "isEnabled": true,
+    "stopover_time": "2分钟",
+    "station_no": "05",
+    "arrive_time": "10:50"
+  },
+  {
+    "station_name": "上海虹桥",
+    "start_time": "11:59",
+    "isEnabled": true,
+    "stopover_time": "----",
+    "station_no": "06",
+    "arrive_time": "11:59"
+  }
+]

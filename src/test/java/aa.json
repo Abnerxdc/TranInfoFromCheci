@@ -1,0 +1,23 @@
+[
+  {
+    "start_time": "07:23",
+    "stop_time": "----",
+    "station": "沧州西",
+    "arrive_time": "----",
+    "mileage": "暂无"
+  },
+  {
+    "start_time": "07:47",
+    "stop_time": "2分钟",
+    "station": "天津南",
+    "arrive_time": "07:45",
+    "mileage": "88公里"
+  },
+  {
+    "start_time": "08:21",
+    "stop_time": "----",
+    "station": "北京南",
+    "arrive_time": "08:21",
+    "mileage": "210公里"
+  }
+]

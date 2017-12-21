@@ -1,0 +1,18 @@
+-- auto-generated definition
+create table tbl_tran_info4
+(
+	id INT(10) not null auto_increment
+		primary key,
+	tran_name VARCHAR(255) default '' not null,
+	station VARCHAR(255) default '' not null,
+	arrive_time VARCHAR(255) null,
+	stop_time VARCHAR(255) null,
+	start_time VARCHAR(255) null,
+	trigger_time VARCHAR(255) null,
+	station_num VARCHAR(255) default '' not null
+)
+;
+
+create unique index station_num
+	on tbl_tran_info4 (station_num, tran_name)
+;
